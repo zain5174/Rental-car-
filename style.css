@@ -1,0 +1,155 @@
+html {
+    font-size: 12px;
+}
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1.2rem;
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #182BFF;
+    width: fit-content;
+    height: 40px;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    text-wrap: nowrap;
+}
+.container{
+    max-width: 1280px;
+    padding-inline: 40px;
+    margin: auto;
+}
+/*logo section*/
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.logo h2{
+    color: #182BFF;
+}
+/*search box*/
+.search-box-md{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search-box .inputs input{
+    background-color: none;
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    border:1px solid #EAEAEA;
+    padding-left: 60px;
+    
+}
+.inputs input::placeholder{
+    font-size: 1.2rem;
+    color: #767676;
+}
+.inputs i{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 25px;
+}
+.search-filter {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search-filter i {
+  font-size: 3vw;
+  color: #767676;
+}
+
+.nav-icon-md {
+    display: none;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+}
+
+
+/*hero banner*/
+.hero-banner{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+    background: url("assets/pexels-jaymantri-5412.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+}   
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-img{
+    height: 120px;
+    width: fit-content;
+    margin-left: 50px;
+}
+.banner-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}

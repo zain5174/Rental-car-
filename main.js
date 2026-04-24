@@ -256,8 +256,6 @@ function toggleFavorite(id, icon) {
 
   if (existIndex === -1) {
 
-    // ❌ old
-    // let car = [...popularCars,...recommendedCars].find(item => item.id == id)
 
     // ✅ new clean method
     let car = allCars.find(item => item.id == id)

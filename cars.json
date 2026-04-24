@@ -1,0 +1,223 @@
+[
+{
+"id":1,
+"cartitle":"mahran",
+"category":"popular",
+"carmodel":"Sport",
+"carimg":"assets/pngwing.com (6).png",
+"carfuel":"90L",
+"cartype":"manual",
+"carspace":"2 People",
+"carprice":"258"
+},
+{
+"id":2,
+"cartitle":"corolla",
+"category":"popular",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (7).png",
+"carfuel":"85L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"320"
+},
+{
+"id":3,
+"cartitle":"civic",
+"category":"popular",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (8).png",
+"carfuel":"80L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"350"
+},
+{
+"id":4,
+"cartitle":"alto",
+"category":"popular",
+"carmodel":"Mini",
+"carimg":"assets/pngwing.com (9).png",
+"carfuel":"70L",
+"cartype":"manual",
+"carspace":"4 People",
+"carprice":"200"
+},
+{
+"id":5,
+"cartitle":"cultus",
+"category":"popular",
+"carmodel":"Hatchback",
+"carimg":"assets/pngwing.com (10).png",
+"carfuel":"75L",
+"cartype":"manual",
+"carspace":"4 People",
+"carprice":"220"
+},
+{
+"id":6,
+"cartitle":"swift",
+"category":"popular",
+"carmodel":"Hatchback",
+"carimg":"assets/pngwing.com (11).png",
+"carfuel":"75L",
+"cartype":"manual",
+"carspace":"4 People",
+"carprice":"240"
+},
+{
+"id":7,
+"cartitle":"city",
+"category":"popular",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (12).png",
+"carfuel":"82L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"330"
+},
+{
+"id":8,
+"cartitle":"elantra",
+"category":"popular",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (13).png",
+"carfuel":"85L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"380"
+},
+{
+"id":9,
+"cartitle":"sportage",
+"category":"popular",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (14).png",
+"carfuel":"95L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"450"
+},
+{
+"id":10,
+"cartitle":"fortuner",
+"category":"popular",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (16).png",
+"carfuel":"100L",
+"cartype":"automatic",
+"carspace":"7 People",
+"carprice":"600"
+},
+
+{
+"id":11,
+"cartitle":"wagon r",
+"category":"recommended",
+"carmodel":"Hatchback",
+"carimg":"assets/pngwing.com (17).png",
+"carfuel":"75L",
+"cartype":"manual",
+"carspace":"4 People",
+"carprice":"210"
+},
+{
+"id":12,
+"cartitle":"yaris",
+"category":"recommended",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (18).png",
+"carfuel":"82L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"300"
+},
+{
+"id":13,
+"cartitle":"sonata",
+"category":"recommended",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (13).png",
+"carfuel":"90L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"420"
+},
+{
+"id":14,
+"cartitle":"tucson",
+"category":"recommended",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (6).png",
+"carfuel":"95L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"460"
+},
+{
+"id":15,
+"cartitle":"prado",
+"category":"recommended",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (7).png",
+"carfuel":"110L",
+"cartype":"automatic",
+"carspace":"7 People",
+"carprice":"700"
+},
+{
+"id":16,
+"cartitle":"accord",
+"category":"recommended",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (8).png",
+"carfuel":"88L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"410"
+},
+{
+"id":17,
+"cartitle":"brv",
+"category":"recommended",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (9).png",
+"carfuel":"90L",
+"cartype":"manual",
+"carspace":"7 People",
+"carprice":"360"
+},
+{
+"id":18,
+"cartitle":"kia rio",
+"category":"recommended",
+"carmodel":"Sedan",
+"carimg":"assets/pngwing.com (10).png",
+"carfuel":"80L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"310"
+},
+{
+"id":19,
+"cartitle":"mg hs",
+"category":"recommended",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (11).png",
+"carfuel":"95L",
+"cartype":"automatic",
+"carspace":"5 People",
+"carprice":"480"
+},
+{
+"id":20,
+"cartitle":"land cruiser",
+"category":"recommended",
+"carmodel":"SUV",
+"carimg":"assets/pngwing.com (12).png",
+"carfuel":"120L",
+"cartype":"automatic",
+"carspace":"7 People",
+"carprice":"800"
+}
+]

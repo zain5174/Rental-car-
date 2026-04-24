@@ -10,13 +10,16 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
 </head>
 
 <body>
-  <header class="header">
-    <div class="navbar container">
+  <header class="header container">
+    <div class="navbar">
       <div class="logo">
         <h2>MORENT</h2>
         <!--media quarry-->
@@ -34,6 +37,7 @@
         <div class="nav-icon-md">
           <div class="nav-heart-md">
             <i class="fa-solid fa-heart" style="color: rgb(152, 152, 152);"></i>
+            <span class="nav-heart-count">0</span>
           </div>
           <div class="nav-bell-md">
             <i class="fa-solid fa-bell" style="color: rgb(152, 152, 152);"></i>
@@ -76,6 +80,136 @@
     </div>
   </section>
   
+  
+  <!--pick and drop section-->
+  <section class="pick-drop container">
+    <div class="pick-drop-wrapper relative">
+      <!--pick up-->
+      <div class="pick-up shadow-lg shadow-black/20">
+        <div class="pick-up-title">
+          <div class="circle"></div>
+          <h3>Pick-up</h3>
+        </div>
+        <div class="pick-up-content">
+          <div class="select-city">
+            <label for="">Select City</label>
+            <select name="" id="">
+              <option value="" selected>Select City</option>
+              <option value="">Lahore</option>
+            </select>
+          </div>
+          <div class="select-date">
+            <label for="time">Enter Date</label>
+            <input type="text" name="" id="" value="17:00" onfocus="this.type='date'" />
+          </div>
+          <div class="select-time">
+            <label for="time">Enter Time</label>
+            <input type="time" name="" id="" value="17:00">
+          </div>
+        </div>
+        
+      </div>
+      <!--drop off-->
+      <div class="pick-up shadow-lg shadow-black/20">
+        <div class="pick-up-title">
+          <div class="circle"></div>
+          <h3>Drop-off</h3>
+        </div>
+        <div class="pick-up-content">
+          <div class="select-city">
+            <label for="">Select City</label>
+            <select name="" id="">
+              <option value="" selected>Select City</option>
+              <option value="">Lahore</option>
+            </select>
+          </div>
+          <div class="select-date">
+            <label for="time">Enter Date</label>
+            <input type="text" name="" id="" placeholder="Pick a date" onfocus="this.type='date'" />
+          </div>
+          <div class="select-time">
+            <label for="time">Enter Time</label>
+            <input type="time" name="" id="" value="17:00">
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="pick-drop-icon w-[80px] h-[80px] bg-[#182BFF] rounded-lg flex items-center justify-center text-[20px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-lg shadow-black/50">
+        <i class="fa-solid fa-up-down" style="color: white;"></i>
+      </div>
+    </div>
+  </section>
+  <!--papolor section-->
+  <section class=" popular-car-section container">
+    <div class="cars-cards-wrapper">
+      <div class="cards-title flex items-center justify-between">
+        <h2 class="md-l-gray">popular Cars</h2>
+        <h2 class="view-all-cars">View all</h2>
+      </div>
+      <div class="cards-wrapper">
+        
+      </div>
+    </div>
+  </section>
+  <!--Recomended section-->
+  <section class=" popular-car-section container">
+    <div class="cars-cards-wrapper">
+      <div class="cards-title flex items-center justify-between">
+        <h2 class="md-l-gray">Recommended Cars</h2>
+      </div>
+      <div class="recommended-cards-wrapper">
+        
+      </div>
+      <div class="show-more flex items-center justify-between pt-[40px]">
+        <button class="btn view-all-cars2">Show More</button>
+        <span class="l-gray">110 Cars</span>
+      </div>
+    </div>
+  </section>
+  <!--footer section-->
+  <footer class="container">
+    <div class="footer-wrapper">
+      <div class="footer-logo flex flex-col items-start">
+        <h2>MORENT</h2>
+        <p>Our vision is to provide convenience and help increase your sales business.</p>
+      </div>
+      <div class="footer-links">
+        <div class="about-links l-gray">
+          <h2 class="text-black">About</h2>
+          <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Businesses Relation</a></li>
+          </ul>
+        </div>
+        <div class="about-links l-gray">
+          <h2 class="text-black">About</h2>
+          <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Businesses Relation</a></li>
+          </ul>
+        </div>
+        <div class="about-links l-gray">
+          <h2 class="text-black">About</h2>
+          <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Businesses Relation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <a href="privacy Policy">privacy Policy</a>
+        <a href="Tearm">Terms & Condition</a>
+        <p>2022 MORENT. Al rights reserved</p>
+      </div>
+    </div>
+  </footer>
   <script src="main.js"></script>
 </body>
 
